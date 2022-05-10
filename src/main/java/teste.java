@@ -1,3 +1,4 @@
+import exemples.gof.facade.Facade;
 import exemples.gof.singleton.SingletonEager;
 import exemples.gof.singleton.SingletonLazy;
 import exemples.gof.singleton.SingletonLazyHolder;
@@ -40,5 +41,12 @@ public class teste {
         robo.mover();
         robo.mover();
         robo.mover();
+
+        //Facade
+
+        Facade facade = new Facade();
+        facade.migrarCliente("Venicios","01928384");
+
+
     }
 }
