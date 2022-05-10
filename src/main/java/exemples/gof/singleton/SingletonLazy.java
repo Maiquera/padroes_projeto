@@ -1,4 +1,4 @@
-package exemples.gof;
+package exemples.gof.singleton;
 
 public class SingletonLazy {
 
